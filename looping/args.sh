@@ -3,8 +3,9 @@ i=0
 for ARG
 # arbitrary list of values
 do
-# print arg 
-echo $ARG
 let i++
+# print arg 
+echo 'arg'$i':'$ARG
 done
-echo $i
+
+echo 'There are '$i' arguments:'
