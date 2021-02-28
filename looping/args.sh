@@ -1,6 +1,10 @@
 #! /usr/bin/zsh
-for VAL in 20 3 dog peach 7 vanilla 
+i=0
+for ARG
 # arbitrary list of values
 do
-	echo $VAL
+# print arg 
+echo $ARG
+let i++
 done
+echo $i
