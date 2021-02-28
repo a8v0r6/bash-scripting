@@ -1,0 +1,4 @@
+#! /usr/bin/zsh
+# This is my first bash script
+
+echo "Hello World!"
